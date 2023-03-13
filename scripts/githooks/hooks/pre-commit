@@ -6,7 +6,7 @@ set -euo pipefail
 echo "=====commit pre-validate check start====="
 
 PWD="$(pwd)"
-COMPANY="thoughtworks" # 修改成项目的公司名称
+COMPANY="qq" # 修改成项目的公司名称
 EMAIL=$(git config user.email)
 if [[ $EMAIL == *"@$COMPANY.com"* ]]; then
   echo "[INFO] Verified email: $EMAIL"

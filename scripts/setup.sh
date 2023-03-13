@@ -26,3 +26,5 @@ bundle exec pod install
 cd "${PROJECT_DIR}/modules/Samples"
 bundle exec pod install
 
+cd "${PROJECT_DIR}/modules/Particle"
+bundle exec pod install
